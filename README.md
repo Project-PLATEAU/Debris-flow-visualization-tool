@@ -43,4 +43,10 @@ python czml_from_csv_collapse.py
 ```
 出力されたcollapse.czmlが建物崩壊情報のczmlになります。  
 
+-建物崩壊フラグの求め方  
 
+czml_from_bldg_iRIC.pyを実行する。  
+```
+python czml_from_bldg_iRIC.py Flag\merge_timestep_100_Ⅰ-12125.csv
+```
+出力されたflag.czmlが建物崩壊フラグのczmlになります。  
