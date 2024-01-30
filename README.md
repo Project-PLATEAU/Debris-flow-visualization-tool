@@ -1,4 +1,4 @@
--流動深、流体力の求め方
+-流動深、流体力、建物崩壊情報の求め方
 
 rename.pyを実行する。
 ```
@@ -36,3 +36,11 @@ czml_from_csv_fbuilding.pyを実行する。
 python czml_from_csv_fbuilding.py
 ```
 出力されたfbuilding.czmlが流体力のczmlになります。  
+
+czml_from_csv_collapse.pyを実行する。  
+```
+python czml_from_csv_collapse.py
+```
+出力されたcollapse.czmlが建物崩壊情報のczmlになります。  
+
+
