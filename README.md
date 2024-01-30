@@ -47,7 +47,7 @@ python czml_from_csv_fbuilding.py
 
 lonlat_from_czml.pyを実行する
 ```
-python lonlat_from_czml.py depth.czml
+python lonlat_from_czml.py fbuilding.czml
 ```
 
 log_lonlat_JS生成_テンプレ.xlsxにlonlat.txtの緯度・経度を貼り付けてJavaScriptソースコードを生成する。  
@@ -80,7 +80,7 @@ python czml_from_csv_collapse.py
 
 lonlat_from_czml.pyを実行する
 ```
-python lonlat_from_czml.py depth.czml
+python lonlat_from_czml.py collapse.czml
 ```
 
 log_lonlat_JS生成_テンプレ.xlsxにlonlat.txtの緯度・経度を貼り付けてJavaScriptソースコードを生成する。  
