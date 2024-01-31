@@ -71,7 +71,7 @@ python czml_from_csv_collapse.py
 
 czml_from_bldg_iRIC.pyを実行する。  
 ```
-python czml_from_bldg_iRIC.py Flag\merge_timestep_100_Ⅰ-12125.csv
+python czml_from_bldg_iRIC.py Flag\<csvファイル名>
 ```
 
 lonlat_from_czml.pyを実行する
