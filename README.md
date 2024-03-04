@@ -26,12 +26,8 @@
 
 | 種別              | 名称   | バージョン | 内容 |
 | ----------------- | --------|-------------|-----------------------------|
-| ミドルウェア       | [poetry](https://python-poetry.org/) | 1.3.2 | Pythonライブラリの管理 |
-| ライブラリ      | [GeoAlchemy2](https://geoalchemy-2.readthedocs.io/) | 0.10.2 | SQL データベースを Python で利用するためのライブラリ <br> SQLAlchemyの空間データベース機能拡張（PostGIS にアクセスするために使用） |
-|       | [Jageocoder](https://www.info-proto.com/jageocoder/) | 2.0.0 | 住所ジオコーダライブラリ（不動産登記情報における建物所在地を登記所備付地図と突合するために使用） |
-|       | [GEOS](https://libgeos.org/) | 3.1.0 | 地理空間情報を処理するためのオープンソースライブラリ（Geometry Engine Open Source） |
-|       | [Proj4](https://proj.org/) | 4.5.0 | 空間参照系変換ライブラリ |
-|       | [React.js](https://react.dev/) | 18.2.0 | ユーザインターフェース構築のための JavaScript ライブラリ |
+| ライブラリ      | [pyproj](https://pyproj4.github.io/pyproj/stable/)) | 3.6.0 | 地図投影と座標変換ライブラリ |
+|       | [czml](https://github.com/cleder/czml)) | 2.0.0 | czml読み書きライブラリ |
 
 ## 6. 動作環境 <!-- 動作環境についての仕様を記載ください。 -->
 | 項目               | 最小動作環境                                                                                                                                                                                                                                                                                                                                    | 推奨動作環境                   | 
@@ -40,7 +36,7 @@
 | CPU                | Intel Core i3以上                                                                                                                                                                                                                                                                                                                               | Intel Core i5以上              | 
 | メモリ             | 4GB以上                                                                                                                                                                                                                                                                                                                                         | 8GB以上                        | 
 | ディスプレイ解像度 | 1024×768以上                                                                                                                                                                                                                                                                                                                                    |  同左                   | 
-| ネットワーク       | 【解析・シミュレーション】<br>不要<br>【集計・適地判定】<br>範囲選択機能を使用しない場合はネットワーク環境は不要<br>範囲選択機能を使用する場合、以下のURLを閲覧できる環境が必要<br>・地理院地図（国土地理院）　<br>http://cyberjapandata.gsi.go.jp<br>・地図表示のため標準地図<br>https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png |  同左                            | 
+  | 
 
 ## 7. 本リポジトリのフォルダ構成 <!-- 本GitHub上のソースファイルの構成を記載ください。 -->
 | フォルダ名 |　詳細 |
