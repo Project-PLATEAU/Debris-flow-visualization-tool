@@ -40,13 +40,14 @@
 ## 7. 本リポジトリのフォルダ構成 <!-- 本GitHub上のソースファイルの構成を記載ください。 -->
 | フォルダ名 |　詳細 |
 |-|-|
-| AggregateData | パネル設置適地判定のデータ管理 |
-| AnalyzeData | 解析・シミュレーションのデータ管理 |
-| Analyzer | 解析・シミュレーションの処理 |
-| CommonUtil | SHPやGeoTIFFのデータ処理やファイル操作 |
-| JudgeSuitablePlace | パネル設置適地判定の処理 |
-| SolarPotential | GUI |
-
+| JavaScript code.txt | Cesium実行用のJavaScriptコードです |
+| czml_from_bldg_iRIC.py | 建物崩壊フラグをcsvからczmlに変換します |
+| czml_from_csv_collapse.py | 建物崩壊情報をcsvからczmlに変換します |
+| czml_from_csv_depth.py | 流動深をcsvからczmlに変換します |
+| czml_from_csv_fbuilding.py | 流体力をcsvからczmlに変換します |
+| log_lonlat_JS生成_テンプレ.xlsx | 緯度経度からJavaScriptコードを生成します |
+| lonlat_from_czml.py | czmlから緯度経度を抽出します |
+| rename.py | ファイル名を標準化します |
 
 ## 8. ライセンス <!-- 変更せず、そのまま使うこと。 -->
 
