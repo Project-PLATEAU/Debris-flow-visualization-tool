@@ -26,10 +26,10 @@
 ・変換対象となるデータは、Morpho2DHのFortranサブルーチン「Building-collapse-detector」を呼び出して実行された土石流シミュレーションの出力結果である、時刻ごと水理量（流体力）・変化した地形データ（流動深）・建物メッシュごと倒壊判定結果（建物倒壊情報）・建物ごと倒壊判定結果（建物倒壊フラグ）の、CSVファイルです。  
   
 ・上記データを対象に、可視化コンバータでは以下を行うことができます。  
-    流動深をcsvからczmlに変換します。  
-    流体力をcsvからczmlに変換します。  
-    建物倒壊情報をcsvからczmlに変換します。  
-    建物倒壊フラグをcsvからczmlに変換します。  
+&nbsp;&nbsp;&nbsp;&nbsp;流動深をcsvからczmlに変換します。  
+&nbsp;&nbsp;&nbsp;&nbsp;流体力をcsvからczmlに変換します。  
+&nbsp;&nbsp;&nbsp;&nbsp;建物倒壊情報をcsvからczmlに変換します。  
+&nbsp;&nbsp;&nbsp;&nbsp;建物倒壊フラグをcsvからczmlに変換します。  
 
 ## 5. 利用技術
 
