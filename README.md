@@ -1,4 +1,4 @@
-![image](https://github.com/Project-PLATEAU/Debris-flow-visualization-tool/assets/81245794/f8595679-6316-4d1e-a7ac-b7b516ef51b0)# 可視化コンバータ 
+# 可視化コンバータ 
 
 ![概要](SampleImage.PNG) 
 
