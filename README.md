@@ -12,7 +12,7 @@
 本システムの詳細については[技術検証レポート](https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0072_ver01.pdf)を参照してください。
 
 ## 3. 利用手順 
-本システムの構築手順及び利用手順については[利用チュートリアル](https://Project-PLATEAU.github.io/Debris-flow-visualization-tool/)を参照してください。
+本システムの構築手順及び利用手順については[利用チュートリアル](https://project-plateau.github.io/Morpho2DH-to-CZML-Converter/)を参照してください。
 
 ## 4. システム概要 
 ・Morpho2DHより出力された時刻ごと水理量・変化した地形データ・家屋倒壊判定結果（それぞれCSVファイル）を、Terria Map上でタイムスタンプに従ったアニメーション表示ができるよう、CZML形式に変換します。  
